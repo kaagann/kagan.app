@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-li::before {
+    content: "▹ ";
+    color: #64ffda;
+    /* position: absolute; */
+    /* left: 0; */
+}
